@@ -4,8 +4,8 @@ This repository is prepared for personal study purposes only. It is not intended
 
 ## Setup
 
-We will use **PyMC** for Bayesian analysis - a powerful probabilistic programming framework in Python.  
-I recommend using a conda-based setup with **Miniforge**, I had issues with pip package manager on my computer to use PyMC.
+**PyMC** ıs a powerful probabilistic programming framework for Bayesian analysis in Python.  
+Conda-based setup with **Miniforge** ıs recommended. (I also had issues with pip package manager on my computer to use PyMC.)
 
 ### Miniforge
 
