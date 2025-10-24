@@ -1,6 +1,6 @@
 # Bayesian-Analysis-With-Python
 
-This repository is prepared for personal study purposes only. It is not intended as a book, publication, or commercial product. The content includes information compiled from various sources and is used solely for educational and research purposes. If you believe any material violates copyright, please contact me and I will make the necessary adjustments.
+This repository is prepared for personal study purposes only. It is not intended as a book, publication, or commercial product. These are my personal study notes. The content includes information compiled from various sources and is used solely for educational and research purposes. If you believe any material violates copyright, please contact me and I will make the necessary adjustments.
 
 ## Setup
 
@@ -29,7 +29,7 @@ conda env list
 
 If you've just installed Miniforge, you should primarily see the (base) environment listed.
 
-Then create a new Conda environment named `bayesian` and install all the necessary libraries:
+Create a new Conda environment named `bayesian` and install all the necessary libraries:
 
 ```bash
 conda create -n bayesian pymc arviz numpy scipy pandas matplotlib seaborn jupyterlab ipykernel ipywidgets -c conda-forge
@@ -41,25 +41,25 @@ Once the environment is created, activate it:
 conda activate bayesian
 ```
 
-You can check the details of your activated environment:
+Check the details of your activated environment:
 
 ```bash
 conda info
 ```
 
-You can see all the packages installed within `bayesian` environment:
+See all the packages installed within `bayesian` environment:
 
 ```bash
 conda list
 ```
 
-If you want to install a package later:
+Install a package later:
 
 ```bash
 conda install scikit-learn -c conda-forge
 ```
 
-If you no longer need it you can deactivate or delete it.
+Deactivate or delete environment:
 
 ```bash
 conda deactivate
